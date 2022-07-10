@@ -1,0 +1,91 @@
+:root {
+    --logo-backdrop: rgba(0, 0, 0, 0.5);
+    --logo-color: whitesmoke;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+body,
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'norse-bold';
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+.flex-row {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.main > div:nth-child(1) {
+    width: 40%;
+    height: 100%;
+
+    background-image: url(./images/cute.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+div.logo {
+    background-color: var(--logo-backdrop);
+
+    position: relative;
+    top: 15%;
+    width: 100%;
+
+    gap: 8px;
+}
+
+div.logo > h1 {
+    font-family: 'norse-bold', 'Times New Roman', Times, serif;
+    color: var(--logo-color);
+
+    font-size: 4.5rem;
+
+    display: inline-block;
+
+    margin: 24px;
+}
+
+h1 + img {
+    height: 60px;
+
+    filter: contrast(0);
+}
+
+div.logo + div,
+p a {
+    color: var(--logo-color); 
+    font-size: 1rem;
+}
+
+
