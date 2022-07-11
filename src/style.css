@@ -38,6 +38,10 @@ body,
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .center {
     align-items: center;
     justify-content: center;
@@ -106,7 +110,7 @@ div.form-side {
     background-color: var(--form-side-backdrop);
 }
 
-.form-side div:first-child {
+.form-side > div:first-child {
     font-size: 1.3rem;
     font-weight: bold;
 
@@ -137,6 +141,10 @@ p span {
     z-index: 300;
 }
 
+h2 {
+    font-size: 1.2rem;
+}
+
 .form-side > div:last-child {
     padding: 16px 0px 40px 40px;
 
@@ -163,5 +171,33 @@ button {
 
     cursor: pointer;
 }
+
+label {
+    text-transform: uppercase;
+
+    font-size: 0.8rem;
+
+    margin: 4px;
+}
+
+form div {
+    margin: 3px 20px;
+}
+
+input {
+    width: 180px;
+    height: 20px;
+    border: 1px solid var(--box-shadow-color);
+}
+
+input:focus-visible {
+    outline: none;
+    border: 1px solid var(--button-standard)
+}
+
+input:invalid {
+    border: red;
+}
+
 
 
