@@ -1,6 +1,11 @@
 // Import stylesheet
 import './style.css';
 
+// Importo Diamond SVG
+
+import diamondPic from './images/diamond.svg'
+document.querySelector('img').src = diamondPic;
+
 // Form
 const form = document.querySelector('form');
 
