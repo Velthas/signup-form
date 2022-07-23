@@ -1,5 +1,5 @@
 # Sign Up Form
-<p>**live example:** https://velthas.github.io/signup-form/ </p>
+<p> **live example:** https://velthas.github.io/signup-form/  </p>
 <p>A page with a sign up form to put into practice what I have been learning about forms and form validation, as well as a few more CSS tricks and selectors.</p>
 
 ## Selectors
