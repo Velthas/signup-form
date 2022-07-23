@@ -1,6 +1,6 @@
 # Sign Up Form
-**live example:** https://velthas.github.io/signup-form/
-A page with a sign up form to put into practice what I have been learning about forms and form validation, as well as a few more CSS tricks and selectors.
+<p>**live example:** https://velthas.github.io/signup-form/ </p>
+<p>A page with a sign up form to put into practice what I have been learning about forms and form validation, as well as a few more CSS tricks and selectors.</p>
 
 ## Selectors
 <p>During the first part of The Odin Project I worked my way through projects using Vanilla CSS, specifically handling class, id and type selectors.</p>
